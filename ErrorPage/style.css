@@ -11,10 +11,14 @@ body {
 }
 
 .image-logo {
+    display: flex;
+    justify-content: center;
     margin-bottom: 20px;
-    max-width: 100%; 
+}
+
+.image-logo img {
+    max-width: 100%;
     width: 300px;
-    margin-left: 100px;
 }
 
 .error-message {
@@ -80,7 +84,7 @@ body {
     transform: translateY(-2px);
 }
 
-
+/* Media Queries */
 @media only screen and (max-width: 768px) {
     .error-message {
         width: 90%;
@@ -88,7 +92,7 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
-    .image-logo {
-        margin-left: 0;
+    .image-logo img {
+        width: 100%;
     }
 }
