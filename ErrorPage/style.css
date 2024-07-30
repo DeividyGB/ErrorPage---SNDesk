@@ -12,8 +12,8 @@ body {
 
 .image-logo {
     margin-bottom: 20px;
-    width: 100%;
-    max-width: 300px;
+    max-width: 100%; /* Garante que a imagem não ultrapasse o seu contêiner */
+    width: 300px; /* Define a largura da imagem */
     margin-left: 80px;
 }
 
@@ -40,7 +40,7 @@ body {
     font-weight: 600;
 }
 
-.p-email{
+.p-email {
     color: #52C5ff;
 }
 
