@@ -12,7 +12,8 @@ body {
 
 .image-logo {
     margin-bottom: 20px;
-    width: 300px;  
+    width: 100%;
+    max-width: 300px;
     margin-left: 80px;
 }
 
