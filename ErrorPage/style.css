@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ebeff3;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.image-logo {
+    margin-bottom: 20px;
+    width: 300px;  
+    margin-left: 80px;
+}
+
+.error-message {
+    text-align: center;
+    padding: 40px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    max-width: 600px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.error-message:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+.error-message h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #0F7ADE;
+    font-weight: 600;
+}
+
+.p-email{
+    color: #52C5ff;
+}
+
+.error-message p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #555;
+}
+
+.error-message a {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.error-message a:hover {
+    color: rgb(56, 56, 225);
+    text-decoration: underline;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    color: #fff;
+    background-color: #25D366;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.whatsapp-button:hover {
+    background-color: #1ebe57;
+    transform: translateY(-2px);
+}
